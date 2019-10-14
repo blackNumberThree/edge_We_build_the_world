@@ -1,0 +1,134 @@
+.gallery-main{
+	height: 1037px;
+	width: 100%;
+	background: linear-gradient(to bottom, 
+	rgba(255,255,255,1) 70%, rgba(249,249,249,1) 30%);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+.view-box{
+	margin: 69px 0px 140px 0px;
+}
+.p-59{
+	padding-right: 59px;
+}
+
+.p-56{
+	padding-right: 56px;
+}
+.p-19{
+	padding-right: 19px;
+}
+.page {
+	width: 1150px;
+		display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card{
+	height: 375px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	width: 253px;
+	padding-bottom: 25px;
+	overflow: hidden;
+}
+ .card-head{
+	font-size: 16px;
+	line-height: 21px;
+	padding: 7px 20px 7px 35px;
+	background-color: rgba(0, 0, 0, .5);
+	color: #fff;
+	transform: translate( -25px, -35px);
+	width: 73%;
+	-ms-align-items: center;
+	align-items: center;
+	border-radius: 30px;
+
+}
+.ch-1{
+		transform: translate( -25px, -56px);
+}
+.ch-2{
+		transform: translate( -25px, -55px);
+}
+.page-1{
+	height: 759px;
+	width: 1150px;
+
+}
+.page-2{
+	height: 810px;
+}
+.page-3{
+	height: 810px;
+}
+/* Стили Gallery-slide*/
+
+.scrool-tools{
+	position: absolute;
+	width: 170px;
+	height: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	top: 950px;
+	left: 74%;
+}
+ .prev, .next {
+ 	cursor: pointer;
+    position: relative;
+    top: 0%;
+	width: 9px;
+	height: 16px;	
+    margin-top: 0px;
+    padding: 0px;
+    color: #0f0f0f;
+}
+.next{
+transform: rotate(180deg)
+
+}
+.slider-dots {
+    position: relative;
+  	width: 99px;
+	height: 16px;
+    top: 0%;
+    left: 0%;
+    padding-bottom: 5px;
+}
+
+.slider-dots_item{
+    cursor: pointer;
+	width: auto;
+    margin: 0 2px 0px 2px;
+    background-color: #fff;
+
+	font-size: 18px;
+	line-height: 16px;
+}
+  .prev:hover,
+.next:hover {
+    color: #6DB744;
+}
+.active,
+.slider-dots_item:hover {
+	background: rgba(0, 0, 0 ,0);
+    color: #6DB744;
+}
